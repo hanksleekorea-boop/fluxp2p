@@ -1,0 +1,31 @@
+{
+  "schema": "flux-release-manifest/v1",
+  "generatedAt": "2026-09-14T11:40:11.806Z",
+  "appVersion": "1.3.0",
+  "gitHead": "7865eff4db7d55f248bd421bba4120a6ffa1f53e",
+  "sourceOfTruth": "apps/web/index.html",
+  "publicSurface": "dist/index.html",
+  "source": {
+    "path": "apps/web/index.html",
+    "bytes": 86310,
+    "sha256": "c26f0ff3ecc6193bfa3061d9d62e05559ff5b03678876fd936a1bf7f250fc29b"
+  },
+  "dist": {
+    "path": "dist/index.html",
+    "bytes": 39235,
+    "sha256": "0b66926907d31b07e7a0d8cc69fce061ae8553a143787cc4f295c1e5303b7d2e"
+  },
+  "simulationPolicy": {
+    "demo": true,
+    "testOnly": true,
+    "realRightsRequiredBeforeServing": true,
+    "realMediaRequiredBeforePlayback": true
+  },
+  "publicLaunchReady": false,
+  "externalAcceptanceRequired": [
+    "public HTTP 200",
+    "Google/WeSaver callback",
+    "operational database",
+    "real Android journey"
+  ]
+}

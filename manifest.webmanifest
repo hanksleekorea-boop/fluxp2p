@@ -1,0 +1,16 @@
+{
+  "name": "FLUX P2P 전체 콘텐츠 체험판",
+  "short_name": "FLUX",
+  "id": "/",
+  "description": "20개 콘텐츠와 40개 화질 선택, 보관함과 자발적 나눔 보상을 체험하는 FLUX P2P 공개 웹앱",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f1116",
+  "theme_color": "#0f1116",
+  "lang": "ko",
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
